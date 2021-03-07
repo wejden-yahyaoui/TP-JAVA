@@ -16,11 +16,22 @@ public class Hachage {
 				Map.entry(5, "three"),
 				Map.entry(6, "eleven"));
 		
+		
+		
 		Map<Integer, String> map2 = new HashMap<>(map);
+		
+		//Question 1
+		map2.replaceAll((key,value)->value.toUpperCase());
+		System.out.println("\n Uppercase table : ");
+		map2.forEach((key,value)-> System.out.println(key + " = "+ value));
+		
+		
+		map2.replaceAll((key,value)->value.toLowerCase());
+		System.out.println("\n Lowcase table : ");
+		map2.forEach((key,value)-> System.out.println(key + " = "+ value));
 		
 		List<Integer> keys = 
 				List.of(1,2,3,4,5,6,7,8);
-		
 		
 		//Question 2 && 3	
 		for (int key : keys) {
