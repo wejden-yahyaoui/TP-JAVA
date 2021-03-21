@@ -1,0 +1,12 @@
+#Ceciestunelignedecommentaires
+bean.name=p1
+p1.class=org.paumard.model.Person
+p1.lastName=Tabarly
+p1.firstName=Eric
+p1.age=32
+bean.name=p2
+p2.class=org.paumard.model.Employee
+p2.lastName=Auguin
+p2.firstName=Christophe
+p2.age=45
+p2.salary=12000
